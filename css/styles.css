@@ -208,8 +208,6 @@ p {
 
   background-color: var(--primary-bg-color);
 }
-.feature-icon {
-}
 .feature-list .title {
   margin-bottom: 10px;
 
@@ -310,11 +308,6 @@ p {
 .social-media-icon {
   fill: currentColor;
 }
-/* .social-media-link:hover .social-media-icon,
-.social-media-link:focus .social-media-icon {
-  fill: var(--primary-white-color);
-  background-color: var(--accent-color);
-} */
 
 /* Clients */
 
@@ -324,30 +317,30 @@ p {
   justify-content: space-between;
 }
 .client-group {
-  width: 170px;
-  height: 92px;
-
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 16px 32px;
-}
-.client-group:hover {
-  border: 1px solid var(--accent-color);
-}
-.client-group:hover .client-icon {
-  fill: var(--accent-color);
 }
 .client-link {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 106px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
   color: var(--icon-color);
+
+  padding: 16px 32px;
 }
 .client-icon {
   fill: currentColor;
+}
+.client-group:hover,
+.client-group:focus {
+  border: 1px solid var(--accent-color);
+}
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--accent-color);
 }
 
 /* Contacts */
