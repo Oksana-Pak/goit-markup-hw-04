@@ -328,8 +328,6 @@ p {
   width: 170px;
   height: 92px;
   color: var(--icon-color);
-
-  padding: 16px 32px;
 }
 .client-icon {
   fill: currentColor;
